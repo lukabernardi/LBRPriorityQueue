@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F96866C18C94A1700C866D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F96866B18C94A1700C866D6 /* Foundation.framework */; };
+		9F96867118C94A1700C866D6 /* LBRPriorityQueue.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9F96867018C94A1700C866D6 /* LBRPriorityQueue.h */; };
+		9F96867318C94A1700C866D6 /* LBRPriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F96867218C94A1700C866D6 /* LBRPriorityQueue.m */; };
+		9F96867A18C94A1700C866D6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F96867918C94A1700C866D6 /* XCTest.framework */; };
+		9F96867B18C94A1700C866D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F96866B18C94A1700C866D6 /* Foundation.framework */; };
+		9F96867D18C94A1700C866D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F96867C18C94A1700C866D6 /* UIKit.framework */; };
+		9F96868018C94A1700C866D6 /* libLBRPriorityQueue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F96866818C94A1700C866D6 /* libLBRPriorityQueue.a */; };
+		9F96868618C94A1700C866D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F96868418C94A1700C866D6 /* InfoPlist.strings */; };
+		9F96869218C94E1A00C866D6 /* LBRPriorityQueueSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F96869118C94E1A00C866D6 /* LBRPriorityQueueSpec.m */; };
+		A51BC10E551049338D841434 /* libPods-LBRPriorityQueueTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C603C98349C4F4D979E752F /* libPods-LBRPriorityQueueTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F96867E18C94A1700C866D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F96866018C94A1700C866D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F96866718C94A1700C866D6;
+			remoteInfo = LBRPriorityQueue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9F96866618C94A1700C866D6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9F96867118C94A1700C866D6 /* LBRPriorityQueue.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C603C98349C4F4D979E752F /* libPods-LBRPriorityQueueTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LBRPriorityQueueTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F96866818C94A1700C866D6 /* libLBRPriorityQueue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLBRPriorityQueue.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F96866B18C94A1700C866D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F96866F18C94A1700C866D6 /* LBRPriorityQueue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LBRPriorityQueue-Prefix.pch"; sourceTree = "<group>"; };
+		9F96867018C94A1700C866D6 /* LBRPriorityQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBRPriorityQueue.h; sourceTree = "<group>"; };
+		9F96867218C94A1700C866D6 /* LBRPriorityQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBRPriorityQueue.m; sourceTree = "<group>"; };
+		9F96867818C94A1700C866D6 /* LBRPriorityQueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBRPriorityQueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F96867918C94A1700C866D6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9F96867C18C94A1700C866D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9F96868318C94A1700C866D6 /* LBRPriorityQueueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LBRPriorityQueueTests-Info.plist"; sourceTree = "<group>"; };
+		9F96868518C94A1700C866D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F96869118C94E1A00C866D6 /* LBRPriorityQueueSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBRPriorityQueueSpec.m; sourceTree = "<group>"; };
+		BB8C2699B783424085C92BDC /* Pods-LBRPriorityQueueTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBRPriorityQueueTests.xcconfig"; path = "Pods/Pods-LBRPriorityQueueTests.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F96866518C94A1700C866D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F96866C18C94A1700C866D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F96867518C94A1700C866D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F96867A18C94A1700C866D6 /* XCTest.framework in Frameworks */,
+				9F96867D18C94A1700C866D6 /* UIKit.framework in Frameworks */,
+				9F96868018C94A1700C866D6 /* libLBRPriorityQueue.a in Frameworks */,
+				9F96867B18C94A1700C866D6 /* Foundation.framework in Frameworks */,
+				A51BC10E551049338D841434 /* libPods-LBRPriorityQueueTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F96865F18C94A1700C866D6 = {
+			isa = PBXGroup;
+			children = (
+				9F96866D18C94A1700C866D6 /* LBRPriorityQueue */,
+				9F96868118C94A1700C866D6 /* LBRPriorityQueueTests */,
+				9F96866A18C94A1700C866D6 /* Frameworks */,
+				9F96866918C94A1700C866D6 /* Products */,
+				BB8C2699B783424085C92BDC /* Pods-LBRPriorityQueueTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		9F96866918C94A1700C866D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F96866818C94A1700C866D6 /* libLBRPriorityQueue.a */,
+				9F96867818C94A1700C866D6 /* LBRPriorityQueueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F96866A18C94A1700C866D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F96866B18C94A1700C866D6 /* Foundation.framework */,
+				9F96867918C94A1700C866D6 /* XCTest.framework */,
+				9F96867C18C94A1700C866D6 /* UIKit.framework */,
+				2C603C98349C4F4D979E752F /* libPods-LBRPriorityQueueTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F96866D18C94A1700C866D6 /* LBRPriorityQueue */ = {
+			isa = PBXGroup;
+			children = (
+				9F96867018C94A1700C866D6 /* LBRPriorityQueue.h */,
+				9F96867218C94A1700C866D6 /* LBRPriorityQueue.m */,
+				9F96866E18C94A1700C866D6 /* Supporting Files */,
+			);
+			path = LBRPriorityQueue;
+			sourceTree = "<group>";
+		};
+		9F96866E18C94A1700C866D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F96866F18C94A1700C866D6 /* LBRPriorityQueue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F96868118C94A1700C866D6 /* LBRPriorityQueueTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F96868218C94A1700C866D6 /* Supporting Files */,
+				9F96869118C94E1A00C866D6 /* LBRPriorityQueueSpec.m */,
+			);
+			path = LBRPriorityQueueTests;
+			sourceTree = "<group>";
+		};
+		9F96868218C94A1700C866D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F96868318C94A1700C866D6 /* LBRPriorityQueueTests-Info.plist */,
+				9F96868418C94A1700C866D6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F96866718C94A1700C866D6 /* LBRPriorityQueue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F96868B18C94A1700C866D6 /* Build configuration list for PBXNativeTarget "LBRPriorityQueue" */;
+			buildPhases = (
+				9F96866418C94A1700C866D6 /* Sources */,
+				9F96866518C94A1700C866D6 /* Frameworks */,
+				9F96866618C94A1700C866D6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBRPriorityQueue;
+			productName = LBRPriorityQueue;
+			productReference = 9F96866818C94A1700C866D6 /* libLBRPriorityQueue.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9F96867718C94A1700C866D6 /* LBRPriorityQueueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F96868E18C94A1700C866D6 /* Build configuration list for PBXNativeTarget "LBRPriorityQueueTests" */;
+			buildPhases = (
+				6140DC83E9064F9F89672984 /* Check Pods Manifest.lock */,
+				9F96867418C94A1700C866D6 /* Sources */,
+				9F96867518C94A1700C866D6 /* Frameworks */,
+				9F96867618C94A1700C866D6 /* Resources */,
+				67D10DF5830240B69A060E64 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F96867F18C94A1700C866D6 /* PBXTargetDependency */,
+			);
+			name = LBRPriorityQueueTests;
+			productName = LBRPriorityQueueTests;
+			productReference = 9F96867818C94A1700C866D6 /* LBRPriorityQueueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F96866018C94A1700C866D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Luca Bernardi";
+			};
+			buildConfigurationList = 9F96866318C94A1700C866D6 /* Build configuration list for PBXProject "LBRPriorityQueue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F96865F18C94A1700C866D6;
+			productRefGroup = 9F96866918C94A1700C866D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F96866718C94A1700C866D6 /* LBRPriorityQueue */,
+				9F96867718C94A1700C866D6 /* LBRPriorityQueueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F96867618C94A1700C866D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F96868618C94A1700C866D6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6140DC83E9064F9F89672984 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		67D10DF5830240B69A060E64 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-LBRPriorityQueueTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F96866418C94A1700C866D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F96867318C94A1700C866D6 /* LBRPriorityQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F96867418C94A1700C866D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F96869218C94E1A00C866D6 /* LBRPriorityQueueSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F96867F18C94A1700C866D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F96866718C94A1700C866D6 /* LBRPriorityQueue */;
+			targetProxy = 9F96867E18C94A1700C866D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F96868418C94A1700C866D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F96868518C94A1700C866D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F96868918C94A1700C866D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F96868A18C94A1700C866D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F96868C18C94A1700C866D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LBRPriorityQueue.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBRPriorityQueue/LBRPriorityQueue-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9F96868D18C94A1700C866D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LBRPriorityQueue.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBRPriorityQueue/LBRPriorityQueue-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9F96868F18C94A1700C866D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB8C2699B783424085C92BDC /* Pods-LBRPriorityQueueTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBRPriorityQueue/LBRPriorityQueue-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LBRPriorityQueueTests/LBRPriorityQueueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9F96869018C94A1700C866D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB8C2699B783424085C92BDC /* Pods-LBRPriorityQueueTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBRPriorityQueue/LBRPriorityQueue-Prefix.pch";
+				INFOPLIST_FILE = "LBRPriorityQueueTests/LBRPriorityQueueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F96866318C94A1700C866D6 /* Build configuration list for PBXProject "LBRPriorityQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F96868918C94A1700C866D6 /* Debug */,
+				9F96868A18C94A1700C866D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F96868B18C94A1700C866D6 /* Build configuration list for PBXNativeTarget "LBRPriorityQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F96868C18C94A1700C866D6 /* Debug */,
+				9F96868D18C94A1700C866D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F96868E18C94A1700C866D6 /* Build configuration list for PBXNativeTarget "LBRPriorityQueueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F96868F18C94A1700C866D6 /* Debug */,
+				9F96869018C94A1700C866D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F96866018C94A1700C866D6 /* Project object */;
+}
